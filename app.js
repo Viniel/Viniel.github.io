@@ -91,7 +91,7 @@ function show23() {
 }
 
 function show24() {
-    document.getElementById('profile').src='https://cdn.discordapp.com/attachments/782027365755912202/799362206499209256/137266353_750224235588884_2692212106391609221_n.png';
+    document.getElementById('profile').src='https://scontent.fyto1-2.fna.fbcdn.net/v/t1.15752-9/p1080x2048/137266353_750224235588884_2692212106391609221_n.jpg?_nc_cat=108&ccb=2&_nc_sid=ae9488&_nc_ohc=CLv8OIsu7B4AX93K4YT&_nc_ht=scontent.fyto1-2.fna&tp=6&oh=2a2d3c0838ef458869b93f0eeef65f86&oe=6026811D';
 }
 
 
