@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: purple;
+}
+
+h2 {
+  font-size: 54px;
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Potta One", sans-serif;
+}
+
+#gameBoard {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  font-size: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: purple;
+}
+
+#restart {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: purple;
+  color: white;
+  border-color: black;
+  font-size: 18px;
+  transition: 200ms transform;
+}
+
+#restart:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.winner {
+  color: green;
+}
+
+/* customized navigation bar*/
+
+li,
+a,
+.navbut {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-family: "Caveat", "Open Sans";
+  background-color: black;
+  color: white;
+}
+
+h1 .navbut {
+  background-color: purple;
+}
+
+header {
+  background-color: black;
+}
+
+.nav_links {
+  list-style: none;
+  background-color: black;
+}
+
+.nav_links li a:hover {
+  color: purple;
+}
